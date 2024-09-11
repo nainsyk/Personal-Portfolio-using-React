@@ -27,7 +27,7 @@ export const Hero = () => {
         <p className={styles.description}>
           I'm a fresher with hands-on experience in frontend development. I love to work and am passionate about crafting web applications using technologies like React and NodeJS. Reach out if you'd like to learn more!
         </p>
-        <a href="mailto:nainsy210@gmail.com" className={styles.contactBtn}>
+        <a href="https://drive.google.com/file/d/1fZFPUn9RJINWm1T6zbpia2nDKt-GDBKj/view?usp=drivesdk" className={styles.contactBtn}>
           Download CV
         </a>
       </div>
