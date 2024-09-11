@@ -1,0 +1,118 @@
+@import "../../vars.css";
+
+/* Base styles for all screen sizes */
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100vw;
+  padding: 58px 10%;
+  gap: 10px;
+}
+
+.text h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+/* Media query for screens smaller than 1024px (tablets) */
+@media screen and (max-width: 1024px) {
+  .container {
+    flex-direction: column;
+    padding: 50px 8%;
+  }
+
+  .text h2 {
+    font-size: 60px; /* Reduce heading size */
+  }
+
+  .text p {
+    font-size: 30px; /* Adjust paragraph size */
+  }
+
+  .link a {
+    font-size: 25px; /* Reduce link font size */
+  }
+}
+
+/* Media query for screens smaller than 830px (mobile) */
+@media screen and (max-width: 830px) {
+  .container {
+    flex-direction: column;
+    gap: 23px;
+    padding: 40px 5%;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .text h2 {
+    font-size: 50px; /* Further reduce heading size */
+  }
+
+  .text p {
+    font-size: 25px; /* Further reduce paragraph size */
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .link a {
+    font-size: 22px; /* Further reduce link size */
+  }
+}
+
+/* Media query for screens smaller than 480px (small mobile devices) */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 20px 3%;
+  }
+
+  .text h2 {
+    font-size: 40px; /* Even smaller for small mobile */
+  }
+
+  .text p {
+    font-size: 20px;
+  }
+
+  .link a {
+    font-size: 18px;
+  }
+}
