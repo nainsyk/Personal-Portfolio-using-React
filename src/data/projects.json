@@ -12,7 +12,7 @@
     "imageSrc": "projects/project.png",
     "description": " Showcased my skills in front-end development employed animations to enhance user engagement and visual appeal.",
     "skills": ["React", "json", "Css"],
-    "demo": "https://www.example.com",
+    "demo": "https://personal-portfolio-using-react-mu.vercel.app/",
     "source": "https://www.github.com"
   },
   {
